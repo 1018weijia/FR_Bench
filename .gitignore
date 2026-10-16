@@ -1,0 +1,111 @@
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments & conda
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+*.conda
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.env
+/config.json
+
+# =============================================================================
+# IDE / OS
+# =============================================================================
+.vscode/
+.idea/
+**/.DS_Store
+Thumbs.db
+__MACOSX/
+*.swp
+*~
+
+# =============================================================================
+# Assets & 3D resources (large, download separately)
+# =============================================================================
+assets/*
+!assets/_download.py
+!assets/files/
+!assets/files/**
+
+# Mesh / point cloud / texture archives
+*.stl
+*.obj
+*.ply
+*.glb
+*.gltf
+*.mtl
+*.urdf.xacro.bak
+
+# =============================================================================
+# Generated datasets. Do not commit collection outputs.
+# Normal runs go to data/. Failure-recovery runs go to error_recovery/data/,
+# including task dirs and local runs such as _fr_*, _golden, _smoke_*, _stress.
+# =============================================================================
+models/
+result/
+eval_result/
+eval_video/
+viewer_show.*
+data/*
+!data/process_stuck.py
+error_recovery/data/
+policy/weights/
+
+# Training / experiment logs
+wandb/
+logs/
+*.log
+.cache/
+
+# =============================================================================
+# Model checkpoints & large binary artifacts
+# =============================================================================
+**/checkpoints/
+*.mp4
+*.hdf5
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.safetensors
+*.onnx
+*.bin
+*.pt
+*.pth
+*.ckpt
+# Keep small placeholder weights shipped with policy code
+!policy/RDT/data/empty_lang_embed.pt
+
+# =============================================================================
+# Third-party dependencies (install separately)
+# =============================================================================
+envs/curobo/
+
+# Root-level generated outputs (legacy)
+/*.json
+/*.txt

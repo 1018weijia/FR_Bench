@@ -1,0 +1,503 @@
+[
+    {
+      "task_name": "adjust_bottle",
+      "thresholds": {
+        "max": 121,
+        "p99": 89,
+        "p95": 47,
+        "p90": 39,
+        "mean": 35
+      }
+    },
+    {
+      "task_name": "beat_block_hammer",
+      "thresholds": {
+        "max": 80,
+        "p99": 73,
+        "p95": 58,
+        "p90": 51,
+        "mean": 34
+      }
+    },
+    {
+      "task_name": "blocks_ranking_rgb",
+      "thresholds": {
+        "max": 282,
+        "p99": 271,
+        "p95": 227,
+        "p90": 202,
+        "mean": 149
+      }
+    },
+    {
+      "task_name": "blocks_ranking_size",
+      "thresholds": {
+        "max": 226,
+        "p99": 224,
+        "p95": 216,
+        "p90": 207,
+        "mean": 149
+      }
+    },
+    {
+      "task_name": "click_alarmclock",
+      "thresholds": {
+        "max": 92,
+        "p99": 87,
+        "p95": 65,
+        "p90": 45,
+        "mean": 26
+      }
+    },
+    {
+      "task_name": "click_bell",
+      "thresholds": {
+        "max": 94,
+        "p99": 89,
+        "p95": 71,
+        "p90": 51,
+        "mean": 29
+      }
+    },
+    {
+      "task_name": "dump_bin_bigbin",
+      "thresholds": {
+        "max": 89,
+        "p99": 87,
+        "p95": 85,
+        "p90": 81,
+        "mean": 50
+      }
+    },
+    {
+      "task_name": "grab_roller",
+      "thresholds": {
+        "max": 28,
+        "p99": 27,
+        "p95": 26,
+        "p90": 25,
+        "mean": 24
+      }
+    },
+    {
+      "task_name": "handover_block",
+      "thresholds": {
+        "max": 76,
+        "p99": 75,
+        "p95": 75,
+        "p90": 74,
+        "mean": 72
+      }
+    },
+    {
+      "task_name": "handover_mic",
+      "thresholds": {
+        "max": 61,
+        "p99": 61,
+        "p95": 61,
+        "p90": 60,
+        "mean": 55
+      }
+    },
+    {
+      "task_name": "hanging_mug",
+      "thresholds": {
+        "max": 85,
+        "p99": 84,
+        "p95": 84,
+        "p90": 84,
+        "mean": 84
+      }
+    },
+    {
+      "task_name": "lift_pot",
+      "thresholds": {
+        "max": 87,
+        "p99": 87,
+        "p95": 87,
+        "p90": 75,
+        "mean": 39
+      }
+    },
+    {
+      "task_name": "move_can_pot",
+      "thresholds": {
+        "max": 51,
+        "p99": 49,
+        "p95": 44,
+        "p90": 41,
+        "mean": 37
+      }
+    },
+    {
+      "task_name": "move_pillbottle_pad",
+      "thresholds": {
+        "max": 62,
+        "p99": 60,
+        "p95": 53,
+        "p90": 44,
+        "mean": 42
+      }
+    },
+    {
+      "task_name": "move_playingcard_away",
+      "thresholds": {
+        "max": 85,
+        "p99": 80,
+        "p95": 52,
+        "p90": 34,
+        "mean": 33
+      }
+    },
+    {
+      "task_name": "move_stapler_pad",
+      "thresholds": {
+        "max": 53,
+        "p99": 52,
+        "p95": 51,
+        "p90": 49,
+        "mean": 43
+      }
+    },
+    {
+      "task_name": "open_laptop",
+      "thresholds": {
+        "max": 113,
+        "p99": 106,
+        "p95": 78,
+        "p90": 58,
+        "mean": 45
+      }
+    },
+    {
+      "task_name": "open_microwave",
+      "thresholds": {
+        "max": 346,
+        "p99": 330,
+        "p95": 265,
+        "p90": 179,
+        "mean": 117
+      }
+    },
+    {
+      "task_name": "pick_diverse_bottles",
+      "thresholds": {
+        "max": 31,
+        "p99": 30,
+        "p95": 30,
+        "p90": 30,
+        "mean": 28
+      }
+    },
+    {
+      "task_name": "pick_dual_bottles",
+      "thresholds": {
+        "max": 32,
+        "p99": 31,
+        "p95": 31,
+        "p90": 31,
+        "mean": 28
+      }
+    },
+    {
+      "task_name": "place_a2b_left",
+      "thresholds": {
+        "max": 86,
+        "p99": 73,
+        "p95": 44,
+        "p90": 43,
+        "mean": 40
+      }
+    },
+    {
+      "task_name": "place_a2b_right",
+      "thresholds": {
+        "max": 70,
+        "p99": 70,
+        "p95": 68,
+        "p90": 55,
+        "mean": 41
+      }
+    },
+    {
+      "task_name": "place_bread_basket",
+      "thresholds": {
+        "max": 118,
+        "p99": 111,
+        "p95": 84,
+        "p90": 79,
+        "mean": 52
+      }
+    },
+    {
+      "task_name": "place_bread_skillet",
+      "thresholds": {
+        "max": 82,
+        "p99": 81,
+        "p95": 77,
+        "p90": 72,
+        "mean": 47
+      }
+    },
+    {
+      "task_name": "place_burger_fries",
+      "thresholds": {
+        "max": 111,
+        "p99": 108,
+        "p95": 103,
+        "p90": 102,
+        "mean": 71
+      }
+    },
+    {
+      "task_name": "place_can_basket",
+      "thresholds": {
+        "max": 130,
+        "p99": 125,
+        "p95": 108,
+        "p90": 97,
+        "mean": 78
+      }
+    },
+    {
+      "task_name": "place_cans_plasticbox",
+      "thresholds": {
+        "max": 66,
+        "p99": 65,
+        "p95": 63,
+        "p90": 61,
+        "mean": 60
+      }
+    },
+    {
+      "task_name": "place_container_plate",
+      "thresholds": {
+        "max": 88,
+        "p99": 82,
+        "p95": 69,
+        "p90": 41,
+        "mean": 38
+      }
+    },
+    {
+      "task_name": "place_dual_shoes",
+      "thresholds": {
+        "max": 94,
+        "p99": 92,
+        "p95": 87,
+        "p90": 82,
+        "mean": 68
+      }
+    },
+    {
+      "task_name": "place_empty_cup",
+      "thresholds": {
+        "max": 43,
+        "p99": 43,
+        "p95": 43,
+        "p90": 42,
+        "mean": 40
+      }
+    },
+    {
+      "task_name": "place_fan",
+      "thresholds": {
+        "max": 52,
+        "p99": 51,
+        "p95": 50,
+        "p90": 47,
+        "mean": 40
+      }
+    },
+    {
+      "task_name": "place_mouse_pad",
+      "thresholds": {
+        "max": 44,
+        "p99": 43,
+        "p95": 43,
+        "p90": 43,
+        "mean": 40
+      }
+    },
+    {
+      "task_name": "place_object_basket",
+      "thresholds": {
+        "max": 99,
+        "p99": 94,
+        "p95": 78,
+        "p90": 74,
+        "mean": 67
+      }
+    },
+    {
+      "task_name": "place_object_scale",
+      "thresholds": {
+        "max": 67,
+        "p99": 67,
+        "p95": 67,
+        "p90": 64,
+        "mean": 42
+      }
+    },
+    {
+      "task_name": "place_object_stand",
+      "thresholds": {
+        "max": 39,
+        "p99": 38,
+        "p95": 38,
+        "p90": 37,
+        "mean": 35
+      }
+    },
+    {
+      "task_name": "place_phone_stand",
+      "thresholds": {
+        "max": 35,
+        "p99": 35,
+        "p95": 35,
+        "p90": 35,
+        "mean": 32
+      }
+    },
+    {
+      "task_name": "place_shoe",
+      "thresholds": {
+        "max": 46,
+        "p99": 45,
+        "p95": 41,
+        "p90": 40,
+        "mean": 37
+      }
+    },
+    {
+      "task_name": "press_stapler",
+      "thresholds": {
+        "max": 84,
+        "p99": 80,
+        "p95": 71,
+        "p90": 54,
+        "mean": 34
+      }
+    },
+    {
+      "task_name": "put_bottles_dustbin",
+      "thresholds": {
+        "max": 239,
+        "p99": 232,
+        "p95": 206,
+        "p90": 188,
+        "mean": 161
+      }
+    },
+    {
+      "task_name": "put_object_cabinet",
+      "thresholds": {
+        "max": 101,
+        "p99": 100,
+        "p95": 100,
+        "p90": 97,
+        "mean": 75
+      }
+    },
+    {
+      "task_name": "rotate_qrcode",
+      "thresholds": {
+        "max": 70,
+        "p99": 69,
+        "p95": 66,
+        "p90": 62,
+        "mean": 44
+      }
+    },
+    {
+      "task_name": "scan_object",
+      "thresholds": {
+        "max": 100,
+        "p99": 97,
+        "p95": 88,
+        "p90": 77,
+        "mean": 51
+      }
+    },
+    {
+      "task_name": "shake_bottle",
+      "thresholds": {
+        "max": 34,
+        "p99": 33,
+        "p95": 31,
+        "p90": 31,
+        "mean": 26
+      }
+    },
+    {
+      "task_name": "shake_bottle_horizontally",
+      "thresholds": {
+        "max": 32,
+        "p99": 32,
+        "p95": 31,
+        "p90": 30,
+        "mean": 24
+      }
+    },
+    {
+      "task_name": "stack_blocks_three",
+      "thresholds": {
+        "max": 265,
+        "p99": 257,
+        "p95": 227,
+        "p90": 190,
+        "mean": 146
+      }
+    },
+    {
+      "task_name": "stack_blocks_two",
+      "thresholds": {
+        "max": 169,
+        "p99": 166,
+        "p95": 155,
+        "p90": 121,
+        "mean": 90
+      }
+    },
+    {
+      "task_name": "stack_bowls_three",
+      "thresholds": {
+        "max": 151,
+        "p99": 147,
+        "p95": 132,
+        "p90": 124,
+        "mean": 116
+      }
+    },
+    {
+      "task_name": "stack_bowls_two",
+      "thresholds": {
+        "max": 154,
+        "p99": 146,
+        "p95": 92,
+        "p90": 86,
+        "mean": 78
+      }
+    },
+    {
+      "task_name": "stamp_seal",
+      "thresholds": {
+        "max": 85,
+        "p99": 82,
+        "p95": 73,
+        "p90": 71,
+        "mean": 43
+      }
+    },
+    {
+      "task_name": "turn_switch",
+      "thresholds": {
+        "max": 92,
+        "p99": 89,
+        "p95": 79,
+        "p90": 69,
+        "mean": 38
+      }
+    }
+  ]
+  

@@ -1,0 +1,9 @@
+inference_mode: cloud_client
+action_type: qpos
+remote_host: 127.0.0.1
+remote_port: 8000
+rpc_timeout_s: 30
+model_factory: null
+model_module: null
+model_class: null
+model_kwargs: {}

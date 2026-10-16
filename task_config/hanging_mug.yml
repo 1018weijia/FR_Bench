@@ -1,0 +1,8 @@
+camera:
+  collect_head_camera: true
+  collect_wrist_camera: true
+  head_camera_type: D435
+  wrist_camera_type: D435
+embodiment:
+- aloha-agilex
+task_name: hanging_mug
