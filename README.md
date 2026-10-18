@@ -1,6 +1,6 @@
 # Bimanual Robotic Manipulation For Failure Recovery
 
-A bimanual failure-recovery experiment repository based on RoboTwin. New data collection uses failure recovery: `error_recovery/collect_parallel.py`. Two existing flows remain: normal expert trajectories via `script/collect_data.py`, and automatic recovery after a failed policy rollout via `script.rollout_recovery.cli recover`.
+A bimanual failure-recovery experiment repository built on top of [RoboTwin](https://github.com/RoboTwin-Platform/RoboTwin). The simulation tasks, robot embodiments, and the original expert-collection pipeline come from RoboTwin. This repository keeps that code and adds failure-recovery data collection and evaluation on top of it. New data collection uses `error_recovery/collect_parallel.py`. Two existing RoboTwin flows remain: normal expert trajectories via `script/collect_data.py`, and automatic recovery after a failed policy rollout via `script.rollout_recovery.cli recover`.
 
 ---
 
@@ -230,3 +230,13 @@ camera:
 ```
 
 The full field list is in `task_config/_config_template.yml`.
+
+---
+
+## Acknowledgement
+
+This repository is a modification of [RoboTwin](https://github.com/RoboTwin-Platform/RoboTwin) (RoboTwin 2.0), not an independent simulator. Task environments, assets, and the base data-collection code are from that project. We thank Tianxing Chen and the RoboTwin authors for releasing it under the MIT License. The copyright notice in [LICENSE](LICENSE) is theirs.
+
+Please cite RoboTwin if you use this code. Project page: [https://robotwin-platform.github.io/](https://robotwin-platform.github.io/). Paper: [RoboTwin 2.0](https://arxiv.org/abs/2506.18088).
+
+What this repository adds on top of RoboTwin is the failure-recovery collection under `error_recovery/`, the policy-rollout recovery under `script/rollout_recovery/`, and the gripper-perturbation evaluation under `script/eval_inject_error/`.
